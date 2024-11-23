@@ -39,6 +39,16 @@
 * Algorithm: Isolation Forest to flag unusual orbital patterns.
 * Impact: Achieved 89% recall, enabling focused tracking of potentially unstable or risky asteroids.
 
+
+| **Objective**                     | **Algorithm Used**                  | **Key Metric**            | **Insight**                                                                                 |
+|------------------------------------|--------------------------------------|---------------------------|---------------------------------------------------------------------------------------------|
+| Asteroid Risk Classification       | Random Forest, Logistic Regression  | Accuracy: 92%             | Identified PHAs based on orbital and physical parameters.                                   |
+| Asteroid Diameter Prediction       | Linear Regression, Gradient Boosting| MSE: 0.43, R²: 87%        | Analyzed size as a potential risk factor.                                                  |
+| Orbit Prediction                   | LSTM (Time Series)                  | RMSE: 0.27                | Predicted future orbital paths of asteroids accurately.                                     |
+| Anomaly Detection                  | Isolation Forest                    | Recall: 89%               | Flagged unusual asteroid trajectories for further analysis.                                 |
+| Clustering for Risk Categorization | K-Means                             | Optimal Clusters: 5 (PCA) | Grouped asteroid patterns based on physical and orbital characteristics.                   |
+
+
 ## 🔍 Data Preparation & Feature Engineering 
 * Data Cleaning: Handled missing values and corrected outliers using statistical methods to ensure data integrity.
 * Feature Scaling: Applied StandardScaler to normalize features for optimal model performance.
